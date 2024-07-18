@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include update_rate_pli *.css
+recursive-include update_rate_pli *.csv
+recursive-include update_rate_pli *.html
+recursive-include update_rate_pli *.ico
+recursive-include update_rate_pli *.js
+recursive-include update_rate_pli *.json
+recursive-include update_rate_pli *.md
+recursive-include update_rate_pli *.png
+recursive-include update_rate_pli *.py
+recursive-include update_rate_pli *.svg
+recursive-include update_rate_pli *.txt
+recursive-exclude update_rate_pli *.pyc
